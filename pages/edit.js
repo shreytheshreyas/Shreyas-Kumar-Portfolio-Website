@@ -202,6 +202,7 @@ const Edit = () => {
         </div>
         {/* HEADER */}
         {currentTabs === "HEADER" && (
+          
           <div className="mt-10">
             <div className="flex items-center">
               <label className="w-1/5 text-lg opacity-50">Name</label>
