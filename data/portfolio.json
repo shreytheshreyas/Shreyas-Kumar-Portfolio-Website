@@ -1,36 +1,30 @@
 {
-  "name": "Chetan",
-  "headerTaglineOne": "Hey There :)",
-  "headerTaglineTwo": "I'm Shreyas and Welcome to my Portfolio",
-  "headerTaglineThree": "I'm a Tech Nerd and an",
-  "headerTaglineFour": "aspiring Machine Learning Engineer.",
-  "showBlog": true,
+  "name": "Shreyas",
+  "displayProfile": "project_images/Display_Profile.jpg",
+  "headerTaglineOne": "Hey There, Welcome to My Website",
+  "headerTaglineTwo": "I'm Shreyas and I am a Computer Engineer from the National University of Singapore.",
+  "showBlog": false,
   "darkMode": true,
   "socials": [
     {
       "id": "1",
       "title": "Github",
-      "link": "https://github.com/chetanverma16"
+      "link": "https://github.com/shreytheshreyas"
     },
     {
       "id": "2",
       "title": "LinkedIn",
-      "link": "https://www.linkedin.com/in/chetanverma7/"
+      "link": "https://www.linkedin.com/in/shreyas-kumar98/"
     },
     {
       "id": "3",
-      "title": "Twitter",
-      "link": "https://twitter.com/realchetanverma"
+      "title": "Medium",
+      "link": "https://medium.com/@shreyaskumar52/"
     },
     {
       "id": "4",
-      "title": "Blog",
-      "link": "https://blog.chetanverma.com/"
-    },
-    {
-      "id": "5",
       "title": "Email",
-      "link": "mailto:hello@chetanverma.com"
+      "link": "mailto:shreyaskumar52@gmail.com"
     }
   ],
   "projects": [
@@ -38,182 +32,136 @@
       "id": "1",
       "title": "AI Accelerated Laser Tag System",
       "description": "Web Design",
-      "imageSrc": "../public/images/Laser_Tag_Capstone_team.jpg",
-      "url": "http://chetanverma.com/"
+      "imageSrc": "project_images/Computer_Engineering_Capstone_Team_Final.jpg",
+      "url": "https://github.com/shreytheshreyas/"
     },
     {
       "id": "2",
       "title": "PhysioTech - Assistive Technology for Physiotheraphy",
       "description": "",
-      "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "imageSrc": "project_images/PhysioTech_Project.jpg",
+      "url": "https://github.com/shreytheshreyas/"
     },
     {
       "id": "3",
-      "title": "The BOYD Project - IOT and Cloud Machine Learning Project",
-      "description": "Design",
-      "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "NUS Shade Datathon 2022: Tumor vs Neumonia, Image Model Classifier",
+      "description": "Design & Development",
+      "imageSrc": "project_images/datathon.jpg",
+      "url": "https://github.com/shreytheshreyas/"
     },
     {
       "id": "4",
-      "title": "Holiday Carpark Availability Prediction Model Pipeline",
-      "description": "Marketing",
-      "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "The BOYD Project - IOT and Cloud Machine Learning Project",
+      "description": "Design",
+      "imageSrc": "project_images/iot.jpg",
+      "url": "https://github.com/shreytheshreyas/"
     },
     {
       "id": "5",
-      "title": "Database System Query Optimization and Analysis Project",
-      "description": "Development",
-      "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "Holiday Carpark Availability Prediction Model and Big Data Analysis",
+      "description": "Marketing",
+      "imageSrc": "project_images/parking.jpg",
+      "url": "https://github.com/shreytheshreyas/"
     },
     {
       "id": "6",
-      "title": "Office Meeting Scheduling System - PL\\ SQL Relational Database Management System Project",
-      "description": "Design & Development",
-      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "Database System Query Optimization and Analysis Project",
+      "description": "Development",
+      "imageSrc": "project_images/database2.jpg",
+      "url": "https://github.com/shreytheshreyas/"
     },
     {
       "id": "7",
-      "title": "ARM Pipelined Processor - Computer Hardware Architecture Project",
+      "title": "Office Meeting Scheduling System - PL\\ SQL Relational Database Management System Project",
       "description": "Design & Development",
-      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "imageSrc": "project_images/database1.jpg",
+      "url": "https://github.com/shreytheshreyas/"
     },
     {
       "id": "8",
-      "title": "StoryBooks Personal Blog Application.",
+      "title": "ARM Pipelined Processor - Computer Hardware Architecture Project",
       "description": "Design & Development",
-      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+      "imageSrc": "project_images/processor.jpg",
       "url": "http://chetanverma.com/"
     },
     {
       "id": "9",
-      "title": "EZ-Manager Project Management System - OOP Software Engineering Project",
+      "title": "StoryBooks Personal Blog Application.",
       "description": "Design & Development",
-      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "imageSrc": "project_images/storybook.jpg",
+      "url": "https://github.com/shreytheshreyas/"
     },
     {
       "id": "10",
-      "title": "Real Time Operating Systems Project",
+      "title": "Quotify-Bot - NUS HacknRoll 2021",
       "description": "Design & Development",
-      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "imageSrc": "project_images/quotify.jpg",
+      "url": "https://github.com/shreytheshreyas/"
     },
     {
       "id": "11",
-      "title": "C.H.A.P.I - Mental Well Being Application : NUS Orbital 2020 - Summer Developers Competition",
-      "description": "Design & Development",
-      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "EZ-Manager Project Management System - OOP Software Engineering Project",
+      "description": "Software Engineering Project Application for Managers",
+      "imageSrc": "project_images/pm.jpg",
+      "url": "https://github.com/shreytheshreyas/"
     },
     {
       "id": "12",
-      "title": "Computer Engineering Principles Part - 2 Project: Alex The Rescue Robot",
+      "title": "Real Time Operating Systems Project",
       "description": "Design & Development",
-      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "imageSrc": "project_images/rtos_project.jpg",
+      "url": "https://github.com/shreytheshreyas/"
     },
     {
       "id": "13",
-      "title": "Computer Engineering Principles Part -1 Project: The A-MAZE-ing Race",
-      "description": "Design & Development",
-      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "C.H.A.P.I - Mental Well Being Application : NUS Orbital 2020 - Summer Developers Competition",
+      "description": "Mental Health Mobile Application",
+      "imageSrc": "project_images/mental_wellbeing.jpg",
+      "url": "https://github.com/shreytheshreyas/"
     },
     {
       "id": "14",
-      "title": "The Memory Game - High School Final Year Computer Science Project",
-      "description": "Design & Development",
-      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "Computer Engineering Principles Part - 2 Project: Alex The Rescue Robot",
+      "description": "Embedded Systems Design & Development",
+      "imageSrc": "project_images/alex.jpg",
+      "url": "https://github.com/shreytheshreyas/"
     },
     {
       "id": "15",
-      "title": "Quotify-Bot - NUS HacknRoll 2021",
-      "description": "Design & Development",
-      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "Computer Engineering Principles Part -1 Project: The A-MAZE-ing Race",
+      "description": "Embedded Systems Design & Development",
+      "imageSrc": "project_images/maze_race.jpg",
+      "url": "https://github.com/shreytheshreyas/"
     },
     {
       "id": "16",
-      "title": "NUS Shade Datathon 2022: Tumor vs Neumonia, Image Model Classifier",
-      "description": "Design & Development",
-      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "The Memory Game - High School Final Year Computer Science Project",
+      "description": "Software Engineering & Development",
+      "imageSrc": "project_images/memory.jpg",
+      "url": "https://github.com/shreytheshreyas/"
     }
   ],
   "hobbies": [
     {
       "id": "1",
-      "title": "Art Direction",
-      "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+      "title": "Mental Health Awareness Advocate",
+      "description": "Collaborated with a group of friends in NUS to raise the awareness of Mental Health Issues faced by the current genreations' youth. Conducted Discussions about Suicide awareness and what people can do to help someone struggling through depression, anxiety and Psychosis."
     },
     {
       "id": "2",
-      "title": "Branding",
-      "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+      "title": "NUS Toastmasters Club",
+      "description": "Organised events to help individuals at NUS to improve their public speaking skills and improve their confidence while meeting new people."
     },
     {
       "id": "3",
-      "title": "Web Design",
-      "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+      "title": "NUS Indian Cultural Society",
+      "description": "Vice-Publicity Head, assisted in the photography and media during events such as Deepavali and Holi during my Freshman Year of College."
     },
     {
       "id": "4",
-      "title": "3D Design",
-      "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+      "title": "NUS Community Service Club",
+      "description": "Collaborated with friends to help special needs children in Singapore and attend to them when they wanted company or somebody to play around with :)"
     }
   ],
-  "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  "resume": {
-    "tagline": "👋  I'm a software engineer, product designer, and maker.",
-    "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
-    "experiences": [
-      {
-        "id": "1",
-        "dates": "March 2022 - Present",
-        "type": "Full Time",
-        "position": "Frontend Engineer at X",
-        "bullets": [
-          "Worked on the frontend of a React application",
-          "Worked on the frontend of a React application"
-        ]
-      },
-      {
-        "id": "2",
-        "dates": "March 2020 - March 2022",
-        "type": "Full Time",
-        "position": "Frontend Engineer at X",
-        "bullets": [
-          "Worked on the frontend of a React application"
-        ]
-      }
-    ],
-    "education": {
-      "universityName": "University X",
-      "universityDate": "2016-2020",
-      "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-    },
-    "languages": [
-      "Javascript",
-      "HTML5",
-      "CSS",
-      "Python"
-    ],
-    "frameworks": [
-      "React",
-      "Typescript",
-      "NodeJs"
-    ],
-    "others": [
-      "Figma",
-      "AdobeXD",
-      "AWS"
-    ]
-  }
+  "aboutpara": "Thanks for stopping by my website. I am fresh Computer Engineering graduate from the National University of Singapore and am currently working on getting into graduate school for Computer Science and Artificial Intelligence in the United States. I am presently looking for data-related roles so as to acquire relevant industry or research experience. If you are interested in hiring me for a particular role that involves Big-Data and Machine-Learning, please take a look at some of the projects I developed with a few friends of mine during my time as an undergraduate. If you want to chat please dont hesitate to send me an email, I will get to you as soon as possible :)"
 }

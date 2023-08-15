@@ -1,5 +1,4 @@
-import React from "react";
-
+import React, { useState, useEffect } from "react";
 const WorkCard = ({ img, name, description, onClick }) => {
   return (
     <div
@@ -7,13 +6,12 @@ const WorkCard = ({ img, name, description, onClick }) => {
       onClick={onClick}
     >
       <div
-        className="relative rounded-lg overflow-hidden transition-all ease-out duration-300 h-48 mob:h-auto"
-        style={{ height: "600px" }}
+        className="relative rounded-xl overflow-hidden transition-all ease-out duration-300 h-96 w-full"
       >
         <img
           alt={name}
           className="h-full w-full object-cover hover:scale-110 transition-all ease-out duration-300"
-          src={img}
+          src= {img}
         ></img>
       </div>
       <h1 className="mt-5 text-3xl font-medium">

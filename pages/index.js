@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import Header from "../components/Header";
+import DisplayProfile from "../components/DisplayProfile/"
 import HobbyCard from "../components/HobbyCard";
 import Socials from "../components/Socials";
 import WorkCard from "../components/WorkCard";
@@ -63,39 +64,46 @@ export default function Home() {
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
         />
-        <div className="laptop:mt-20 mt-10">
-          <div className="mt-5">
-            <h1
-              ref={textOne}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
-            >
-              {data.headerTaglineOne}
-            </h1>
-            <h1
-              ref={textTwo}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
-            >
-              {data.headerTaglineTwo}
-            </h1>
-            <h1
-              ref={textThree}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
-            >
+        <div className="flex laptop:flex-row mob:flex-col">
+          <div className="laptop:mt-20 mt-10 basis-2/3">
+            <div className="mt-5">
+              <h1
+                ref={textOne}
+                className="text-3xl tablet:text-6xl laptop:text-8xl laptopl:text-6xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
+              >
+                {data.headerTaglineOne}
+              </h1>
+              <h1
+                ref={textTwo}
+                className="text-3xl tablet:text-6xl laptop:text-8xl laptopl:text-4xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+              >
+                {data.headerTaglineTwo}
+              </h1>
+              <h1
+                ref={textThree}
+                className="text-3xl tablet:text-6xl laptop:text-8xl laptopl:text-3xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+              >
               {data.headerTaglineThree}
-            </h1>
-            <h1
-              ref={textFour}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
-            >
-              {data.headerTaglineFour}
-            </h1>
+              </h1>
+            </div>  
           </div>
-
-          <Socials className="mt-2 laptop:mt-5" />
+          <div className="basis-1/3 laptop:mt-36 laptop:ml-64" >
+            <DisplayProfile 
+              img={data.displayProfile}
+            />
+          </div>
         </div>
-        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
-          <h1 className="text-2xl text-bold">Projects</h1>
+        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
+          <h1 className="tablet:m-10 text-4xl text-bold">About.</h1>
+          <p className="tablet:m-10 mt-2 text-2xl laptop:text-3xl w-full">
+            {data.aboutpara}
+          </p>
+        </div>
+          
+        <Socials className="mt-2 laptop:mt-5" />
 
+        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
+          <h1 className="text-4xl text-bold">Projects</h1>
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
             {data.projects.map((project) => (
               <WorkCard
@@ -120,20 +128,6 @@ export default function Home() {
               />
             ))}
           </div>
-        </div>
-        {/* This button should not go into production */}
-        {process.env.NODE_ENV === "development" && (
-          <div className="fixed bottom-5 right-5">
-            <Link href="/edit">
-              <Button type="primary">Edit Data</Button>
-            </Link>
-          </div>
-        )}
-        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
-          <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
-          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
-            {data.aboutpara}
-          </p>
         </div>
         <Footer />
       </div>
