@@ -31,58 +31,58 @@
     {
       "id": "1",
       "title": "AI Accelerated Laser Tag System",
-      "description": "Web Design",
+      "description": "Final Year Internet of Things Gaming System Project",
       "imageSrc": "project_images/Computer_Engineering_Capstone_Team_Final.jpg",
       "url": "https://github.com/shreytheshreyas/"
     },
     {
       "id": "2",
       "title": "PhysioTech - Assistive Technology for Physiotheraphy",
-      "description": "",
+      "description": "Medical Imaging pipeline for patients undergoing Physiotheraphy",
       "imageSrc": "project_images/PhysioTech_Project.jpg",
       "url": "https://github.com/shreytheshreyas/"
     },
     {
       "id": "3",
       "title": "NUS Shade Datathon 2022: Tumor vs Neumonia, Image Model Classifier",
-      "description": "Design & Development",
+      "description": "Medical Imaging Hackathon Project for Tumor Detection",
       "imageSrc": "project_images/datathon.jpg",
       "url": "https://github.com/shreytheshreyas/"
     },
     {
       "id": "4",
       "title": "The BOYD Project - IOT and Cloud Machine Learning Project",
-      "description": "Design",
+      "description": "Intenet of Things Project for Nursing Home and Medical Institutions",
       "imageSrc": "project_images/iot.jpg",
       "url": "https://github.com/shreytheshreyas/"
     },
     {
       "id": "5",
       "title": "Holiday Carpark Availability Prediction Model and Big Data Analysis",
-      "description": "Marketing",
+      "description": "Big Data Analysis Project",
       "imageSrc": "project_images/parking.jpg",
       "url": "https://github.com/shreytheshreyas/"
     },
     {
       "id": "6",
       "title": "Database System Query Optimization and Analysis Project",
-      "description": "Development",
+      "description": "Database Project for Searching and Indexing Algorithms",
       "imageSrc": "project_images/database2.jpg",
       "url": "https://github.com/shreytheshreyas/"
     },
     {
       "id": "7",
       "title": "Office Meeting Scheduling System - PL\\ SQL Relational Database Management System Project",
-      "description": "Design & Development",
+      "description": "Databse Design and Backend Development Project",
       "imageSrc": "project_images/database1.jpg",
       "url": "https://github.com/shreytheshreyas/"
     },
     {
       "id": "8",
       "title": "ARM Pipelined Processor - Computer Hardware Architecture Project",
-      "description": "Design & Development",
+      "description": "System on a Chip Project",
       "imageSrc": "project_images/processor.jpg",
-      "url": "http://chetanverma.com/"
+      "url": "https://github.com/shreytheshreyas/"
     },
     {
       "id": "9",
@@ -94,7 +94,7 @@
     {
       "id": "10",
       "title": "Quotify-Bot - NUS HacknRoll 2021",
-      "description": "Design & Development",
+      "description": "Machine Learning & Web Development Project",
       "imageSrc": "project_images/quotify.jpg",
       "url": "https://github.com/shreytheshreyas/"
     },
@@ -108,7 +108,7 @@
     {
       "id": "12",
       "title": "Real Time Operating Systems Project",
-      "description": "Design & Development",
+      "description": "Embedded Systems Project",
       "imageSrc": "project_images/rtos_project.jpg",
       "url": "https://github.com/shreytheshreyas/"
     },
