@@ -17,7 +17,7 @@ import data from "../data/portfolio.json";
 
 export default function Home() {
   // Ref
-  const workRef = useRef();
+  const projectRef = useRef();
   const aboutRef = useRef();
   const textOne = useRef();
   const textTwo = useRef();
@@ -27,7 +27,7 @@ export default function Home() {
   // Handling Scroll
   const handleWorkScroll = () => {
     window.scrollTo({
-      top: workRef.current.offsetTop,
+      top: projectRef.current.offsetTop,
       left: 0,
       behavior: "smooth",
     });
@@ -53,7 +53,7 @@ export default function Home() {
     <div className={`relative ${data.showCursor && "cursor-none"}`}>
       {data.showCursor && <Cursor />}
       <Head>
-        <title>Shreyas Kumar</title>
+        <title>Shreyas Kumar Portfolio</title>
       </Head>
 
       <div className="gradient-circle"></div>
@@ -84,6 +84,7 @@ export default function Home() {
                 className="text-3xl tablet:text-6xl laptop:text-8xl laptopl:text-3xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
               >
               {data.headerTaglineThree}
+              
               </h1>
             </div>  
           </div>
@@ -93,7 +94,10 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
+
+        <br/><br/><hr/>
+
+        <div className="mt-6 laptop:mt-24 p-2 laptop:p-0" ref={aboutRef}>
           <h1 className="tablet:m-10 text-4xl text-bold">About</h1>
           <p className="tablet:m-10 mt-2 text-2xl laptop:text-3xl w-full">
             {data.aboutpara}
@@ -102,7 +106,9 @@ export default function Home() {
           
         <Socials className="mt-2 laptop:mt-5" />
 
-        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
+        <br/><hr/><br/>
+
+        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={projectRef}>
           <h1 className="text-4xl text-bold">Projects</h1>
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
             {data.projects.map((project) => (
@@ -117,8 +123,23 @@ export default function Home() {
           </div>
         </div>
 
+        <br/><hr/><br/>
+        
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
-          <h1 className="tablet:m-10 text-2xl text-bold">Hobbies and Extra Curricular Activities</h1>
+          <h1 className="tablet:m-10 text-4xl text-bold">Hobbies and Extra Curricular Activities</h1>
+          <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
+            {data.volunteering.map((hobby, index) => (
+              <HobbyCard
+                key={index}
+                name={hobby.title}
+                description={hobby.description}
+              />
+            ))}
+          </div>
+        </div>
+        
+        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
+          <h1 className="tablet:m-10 text-4xl text-bold">Hobbies and Extra Curricular Activities</h1>
           <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
             {data.hobbies.map((hobby, index) => (
               <HobbyCard
@@ -129,6 +150,7 @@ export default function Home() {
             ))}
           </div>
         </div>
+        
         <Footer />
       </div>
     </div>
