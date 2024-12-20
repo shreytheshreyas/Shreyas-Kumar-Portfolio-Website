@@ -8,7 +8,6 @@ import data from "../../data/portfolio.json";
 import Socials from "../Socials";
 
 const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
-  const router = useRouter();
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
   const socialId = {'github':0, 'linkedin':1, 'instagram':2}
@@ -17,7 +16,6 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
   useEffect(() => {
     setMounted(true);
   }, []);
-  console.log(socials[socialId.github].link)
   return (
     <>
       <Popover className="block tablet:hidden mt-5">
