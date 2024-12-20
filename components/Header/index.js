@@ -79,7 +79,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
           <Button onClick={handleAboutScroll}>About</Button>
           <Button onClick={handleWorkScroll}>Projects</Button>
           <Button onClick={() => window.open("mailto:shreyaskumar52@gmail.com")}>Work-Experience</Button>
-          {mounted && theme && data.darkMode && (
+          {/*{mounted && theme && data.darkMode && (
             <Button
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             >
@@ -88,7 +88,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
               ></img>
             </Button>
-          )}
+          )}*/}
         </div>
         <Socials />
       </div>

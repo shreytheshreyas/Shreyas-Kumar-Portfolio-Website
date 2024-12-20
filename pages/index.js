@@ -4,6 +4,7 @@ import DisplayProfile from "../components/DisplayProfile/"
 import HobbyCard from "../components/HobbyCard";
 import Socials from "../components/Socials";
 import WorkCard from "../components/WorkCard";
+import ExperienceCard from '../components/ExperienceCard'
 import { useIsomorphicLayoutEffect } from "../utils";
 import { stagger } from "../animations";
 import Footer from "../components/Footer";
@@ -11,7 +12,6 @@ import Head from "next/head";
 import Button from "../components/Button";
 import Link from "next/link";
 import Cursor from "../components/Cursor";
-
 // Local Data
 import data from "../data/portfolio.json";
 
@@ -118,6 +118,23 @@ export default function Home() {
                 name={project.title}
                 description={project.description}
                 onClick={() => window.open(project.url)}
+              />
+            ))}
+          </div>
+        </div>
+
+        <br/><hr/><br/>
+        
+        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={projectRef}>
+          <h1 className="tablet:m-4 text-6xl text-bold">Work-Experience</h1>
+          <div className="mt-5 laptop:mt-10 grid grid-cols-1 laptop:grid-cols-1 tablet:grid-cols-1 gap-3">
+            {data.experiences.map((experience) => (
+              <ExperienceCard
+                key={experience.id}
+                logo={experience.logo}
+                companyName={experience.companyName}
+                role={experience.role}
+                experienceInfo={experience.experienceInfo}
               />
             ))}
           </div>
