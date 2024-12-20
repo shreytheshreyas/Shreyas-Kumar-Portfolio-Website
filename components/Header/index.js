@@ -1,4 +1,4 @@
-import { Popover } from "@headlessui/react";
+import { Popover } from "@headlessui/react"; 
 import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
@@ -7,7 +7,7 @@ import Button from "../Button";
 import data from "../../data/portfolio.json";
 import Socials from "../Socials";
 
-const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
+const Header = ({ handleWorkScroll, handleAboutScroll, handleExperienceScroll }) => {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
   const socialId = {'github':0, 'linkedin':1, 'instagram':2}
@@ -59,6 +59,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               <div className="grid grid-cols-1">
                 <Button onClick={handleAboutScroll}>About</Button>
                 <Button onClick={handleWorkScroll}>Projects</Button>
+                <Button onClick={handleExperienceScroll}>Work-Experience</Button>
                 <Button onClick={() => window.open(socials[socialId.github].link)}>Github</Button>
                 <Button onClick={() => window.open(socials[socialId.linkedin].link)}>Linkedin</Button>
                 <Button onClick={() => window.open(socials[socialId.instagram].link)}>Instagram</Button>
@@ -78,7 +79,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         <div className="flex">
           <Button onClick={handleAboutScroll}>About</Button>
           <Button onClick={handleWorkScroll}>Projects</Button>
-          <Button onClick={() => window.open("mailto:shreyaskumar52@gmail.com")}>Work-Experience</Button>
+          <Button onClick={handleExperienceScroll}>Work-Experience</Button>
           {/*{mounted && theme && data.darkMode && (
             <Button
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}

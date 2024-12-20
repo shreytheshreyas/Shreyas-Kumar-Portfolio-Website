@@ -4,7 +4,7 @@
   "headerTaglineOne": "Hello There! yes that was a Star-Wars reference and welcome to my website :)",
   "headerTaglineTwo": "My name is Shreyas, but you can call me Rey.\nI am a Software Engineer and Entrepreneur dedicated to supporting the mental health community.",
   "headerTaglineThree": " I am also a Lead Guitarist with a passion for rock music and an unshakable love for Linkin Park.",
-  "aboutpara": "Growing up in Singapore, my journey in technology and engineering has been shaped by friends and mentors whose innovative spirit and inspiring ideas, combined with my diverse experiences, have driven me to harness technology for societal impact. My fascination with technology emerged in childhood, particularly with solutions that prioritize exceptional design and user experience. This passion was further fueled by my admiration of Apple's approach to technology – where engaging, simple, and secure user experiences take center stage in their products. Now, I'm applying my expertise in software engineering and large-scale data systems to develop a platform addressing critical mental healthcare challenges, specifically targeting prohibitive costs, social stigma, and limited access to immediate professional support. This project embodies my vision of creating meaningful social impact through thoughtfully designed solutions.",
+  "aboutpara": "Growing up in Singapore, my journey in technology and engineering has been shaped by family, friends, and mentors whose innovative spirit and inspiring ideas, combined with my diverse experiences, have driven me to harness technology for societal impact. My fascination with technology emerged in childhood, particularly with solutions that prioritize exceptional design and user experience. This passion was further fueled by my admiration of Apple's approach to technology – where engaging, simple, and secure user experiences take center stage in their products. Now, I'm applying my expertise in software engineering and large-scale data systems to develop a platform addressing critical mental healthcare challenges, specifically targeting prohibitive costs, social stigma, and limited access to immediate professional support. This project embodies my vision of creating meaningful social impact through thoughtfully designed solutions.",
   "showBlog": false,
   "darkMode": true,
   "socials": [
@@ -86,7 +86,7 @@
     },
     {
       "id": "3",
-      "title": "NUS Shade Datathon 2022: Tumor vs Neumonia, Image Model Classifier",
+      "title": "NUS x MIT Medical AI Competion Project",
       "description": "Medical Imaging Hackathon Project for Tumor Detection",
       "imageSrc": "project_images/datathon.jpg",
       "url": "https://github.com/shreytheshreyas/NUS-and-MIT-Applied-AI-Medical-Competition-2022"
@@ -183,26 +183,26 @@
       "description": "I am currently a Calm Collective Asia scholarship recipient undergoing training as a mental health care facilitator and community peer supporter. My mission is to assist individuals across asia facing severe psychological challenges, offering support to help them navigate the difficult times associated with their mental health conditions."
     },
     {
+      "id": "2",
+      "title": "NUS Peer and Psychological Support Community: Mental Health Advocate and Peer Supporter",
+      "description": "I Completed an extensive peer support training program through NUS and CHAT Hub Singapore (Singapore Institute of Mental Health Initiative), specializing in severe mental health conditions and suicide prevention among young adults. I later served as a mental health peer supporter in my final year, providing emotional support and guidance to help students navigate academic challenges and deal with their respective emotional problems."
+    },
+    {
       "id": "3",
-      "title": "NUS Toastmasters Club",
-      "description": "Organised events to help individuals at NUS to improve their public speaking skills and improve their confidence while meeting new people."
+      "title": "NUS Community Service Club: Student Volunteer",
+      "description": "I contributed as a volunteer in supporting children under the age of 12 with learning disabilities and psychological disorders, such as Down syndrome, autism, and chronic anxiety. My role involved engaging the children in suitable recreational activities, ensuring they received their food on time, and helping manage their rest schedules to support their well-being and comfort."
     },
     {
       "id": "4",
-      "title": "NUS Indian Cultural Society",
-      "description": "Vice-Publicity Head, assisted in the photography and media during events such as Deepavali and Holi during my Freshman Year of College."
-    },
-    {
-      "id": "5",
-      "title": "NUS Community Service Club",
-      "description": "Collaborated with friends to help special needs children in Singapore and attend to them when they wanted company or somebody to play around with :)"
+      "title": "Singapore Institute of Mental Health: Summer Volunteer 2013",
+      "description": "I supported hospital patients undergoing treatment for severe psychiatric disorders as a summer volunteer 11 years ago. Although my responsibilities were limited due to my age, I diligently assisted with ensuring patients adhered to their daily routines, including meal intake, medication schedules, and exercise regimens. I regularly reported these activities to the nursing staff responsible for the clinic, contributing to the overall care and management of patient treatment."
     }
   ],
   "hobbies": [
     {
       "id": "1",
-      "title": "Calm Collective Asia: Mental Health Facilitator Traniee",
-      "description": "I am currently a Calm Collective Asia scholarship recipient undergoing training as a mental health care facilitator and community peer supporter. My mission is to assist individuals across asia facing severe psychological challenges, offering support to help them navigate the difficult times associated with their mental health conditions."
+      "title": "Singapore Institute of Mental Health: Summer Volunteer 2013",
+      "description": "I supported hospital patients undergoing treatment for severe psychiatric disorders as a summer volunteer 11 years ago. Although my responsibilities were limited due to my age, I diligently assisted with ensuring patients adhered to their daily routines, including meal intake, medication schedules, and exercise regimens. I regularly reported these activities to the nursing staff responsible for the clinic, contributing to the overall care and management of patient treatment."
     },
     {
       "id": "3",
