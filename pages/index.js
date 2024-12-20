@@ -104,7 +104,7 @@ export default function Home() {
           </p>
         </div>
           
-        <Socials className="mt-2 laptop:mt-5" />
+       {/* <Socials className="mt-2 laptop:mt-5" />*/}
 
         <br/><hr/><br/>
 
