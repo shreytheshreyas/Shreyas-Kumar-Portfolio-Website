@@ -98,7 +98,7 @@ export default function Home() {
         <br/><br/><hr/>
 
         <div className="mt-6 laptop:mt-24 p-2 laptop:p-0" ref={aboutRef}>
-          <h1 className="tablet:m-10 text-4xl text-bold">About</h1>
+          <h1 className="tablet:m-4 text-6xl text-bold">About</h1>
           <p className="tablet:m-10 mt-2 text-2xl laptop:text-3xl w-full">
             {data.aboutpara}
           </p>
@@ -109,7 +109,7 @@ export default function Home() {
         <br/><hr/><br/>
 
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={projectRef}>
-          <h1 className="text-4xl text-bold">Projects</h1>
+          <h1 className="tablet:m-4 text-6xl text-bold">Projects</h1>
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 laptop:grid-cols-3 tablet:grid-cols-2 gap-3">
             {data.projects.map((project) => (
               <WorkCard
@@ -126,7 +126,7 @@ export default function Home() {
         <br/><hr/><br/>
         
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
-          <h1 className="tablet:m-10 text-4xl text-bold">Hobbies and Extra Curricular Activities</h1>
+          <h1 className="tablet:m-4 text-6xl text-bold">Volunteering and Community Service</h1>
           <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
             {data.volunteering.map((hobby, index) => (
               <HobbyCard
@@ -137,9 +137,11 @@ export default function Home() {
             ))}
           </div>
         </div>
-        
+       
+        <br/><hr/><br/>
+
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
-          <h1 className="tablet:m-10 text-4xl text-bold">Hobbies and Extra Curricular Activities</h1>
+          <h1 className="tablet:m-4 text-6xl text-bold">Hobbies and Extra Curricular Activities</h1>
           <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
             {data.hobbies.map((hobby, index) => (
               <HobbyCard
