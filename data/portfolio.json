@@ -24,6 +24,11 @@
       "link": "https://www.instagram.com/reytheshreyas/"
     },
     {
+      "id": "3",
+      "title": "Medium",
+      "link": "https://medium.com/@shreyaskumar52"
+    },
+    {
       "id": "4",
       "title": "Email",
       "link": "mailto:shreyaskumar52@gmail.com"
@@ -201,23 +206,23 @@
   "hobbies": [
     {
       "id": "1",
-      "title": "Singapore Institute of Mental Health: Summer Volunteer 2013",
-      "description": "I supported hospital patients undergoing treatment for severe psychiatric disorders as a summer volunteer 11 years ago. Although my responsibilities were limited due to my age, I diligently assisted with ensuring patients adhered to their daily routines, including meal intake, medication schedules, and exercise regimens. I regularly reported these activities to the nursing staff responsible for the clinic, contributing to the overall care and management of patient treatment."
+      "title": "Lead Electric Guitarist",
+      "description": "From the raw energy of Guns N' Roses to the legendary sounds of Linkin Park, and from the timeless genius of The Beatles to the smooth harmonies of the Eagles – if rock legends get your heart racing, we're already speaking the same language! As a dedicated lead guitarist, I pour my soul into every practice session, constantly pushing my boundaries through new songs, refining my technique, and diving deep into the fascinating world of music theory."
+    },
+    {
+      "id": "2",
+      "title": "Rock Climbing",
+      "description": "As someone who values fitness, I found myself trapped in the monotony of dumbbells and jumping rope until I discovered an interest scaling walls with fellow climbers every weekend. While I'm no Alex Honnold, there's something magical about combining the rush of climbing with the laughter of friends. Sure, I might collapse in exhaustion after each session, but rock climbing has transformed my fitness journey from a mundane checklist into an exhilarating social adventure. "
     },
     {
       "id": "3",
-      "title": "NUS Toastmasters Club",
-      "description": "Organised events to help individuals at NUS to improve their public speaking skills and improve their confidence while meeting new people."
+      "title": "Table Tennis",
+      "description": "From fumbling serves in 2007 to crafting custom rackets and crushing it on my school's competitive team - my table tennis journey has been an absolute blast! Though I've hung up my professional paddle, you'll still catch me at the table, living for those perfect shots and getting hyped watching Olympic champions battle it out."
     },
     {
       "id": "4",
-      "title": "NUS Indian Cultural Society",
-      "description": "Vice-Publicity Head, assisted in the photography and media during events such as Deepavali and Holi during my Freshman Year of College."
-    },
-    {
-      "id": "5",
-      "title": "NUS Community Service Club",
-      "description": "Collaborated with friends to help special needs children in Singapore and attend to them when they wanted company or somebody to play around with :)"
+      "title": "Record and Vinly Hunting",
+      "description": "From hunting down ultra-cool Zoetrope vinyl pressings to scoring autographed classics from legendary artists, I'm on a never-ending quest for musical treasures! My collection spans genres and eras, including every Linkin Park record ever pressed — even their latest 2024 release. The thrill of discovering rare vinyl gems keeps me exploring!"
     }
   ]
 }
