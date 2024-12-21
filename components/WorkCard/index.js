@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 const WorkCard = ({ img, name, description, onClick }) => {
   return (
     <div
-      className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link"
+      className="overflow-hidden hover:scale-110 hover:bg-slate-500 rounded-lg m-3 p-2 laptop:p-4 first:ml-0 link"
       onClick={onClick}
     >
       <div
@@ -10,7 +10,7 @@ const WorkCard = ({ img, name, description, onClick }) => {
       >
         <img
           alt={name}
-          className="h-full w-full object-cover hover:scale-110 transition-all ease-out duration-300"
+          className="h-full w-full object-cover transition-all ease-out duration-300"
           src= {img}
         ></img>
       </div>
