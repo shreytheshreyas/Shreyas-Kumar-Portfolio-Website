@@ -75,7 +75,7 @@
       "title": "AI Accelerated Laser Tag System",
       "description": "Final Year Internet of Things Gaming System Project",
       "imageSrc": "project_images/Computer_Engineering_Capstone_Team_Final.jpg",
-      "url": "https://github.com/shreytheshreyas/Laser-Tag/"
+      "url": "https://github.com/shreytheshreyas/AI-Accelerated-Augmented-Reality-Laser-Tag-Game"
     },
     {
       "id": "2",
@@ -87,9 +87,9 @@
     {
       "id": "3",
       "title": "NUS x MIT Medical AI Competion Project",
-      "description": "Medical Imaging Hackathon Project for Tumor Detection",
+      "description": "Medical Imaging Hackathon Project for Lung Tumor Detection",
       "imageSrc": "project_images/datathon.jpg",
-      "url": "https://github.com/shreytheshreyas/NUS-and-MIT-Applied-AI-Medical-Competition-2022"
+      "url": "https://github.com/shreytheshreyas/NUS-and-MIT-Applied-AI-Medical-Competition-2022/"
     },
     {
       "id": "4",
@@ -107,73 +107,73 @@
     },
     {
       "id": "6",
-      "title": "Database System Query Optimization and Analysis Project",
-      "description": "Database Project for Searching and Indexing Algorithms",
+      "title": "Database System Implementation Project",
+      "description": "Custom Relational Database Implementation designed using Searching, Indexing and Join Algorithms",
       "imageSrc": "project_images/database2.jpg",
       "url": "https://github.com/shreytheshreyas/Database-Management-System-Implementation-Project/"
     },
     {
       "id": "7",
-      "title": "Office Meeting Scheduling System - PL\\ SQL Relational Database Management System Project",
-      "description": "Databse Design and Backend Development Project",
+      "title": "Office Meeting Scheduling System",
+      "description": "Databse Design Project using PL\\pgSQL",
       "imageSrc": "project_images/database1.jpg",
       "url": "https://github.com/shreytheshreyas/Database-Systems-and-Database-Design-Team-Project/"
     },
     {
       "id": "8",
-      "title": "ARM Pipelined Processor - Computer Hardware Architecture Project",
-      "description": "System on a Chip Project",
+      "title": "ARMv7 Compliant Pipelined Processor",
+      "description": "Computer Hardware Architecture Project",
       "imageSrc": "project_images/processor.jpg",
-      "url": "https://github.com/shreytheshreyas/NUS-Computer-Architecture-Pipelined-Processor-Implementation-with-Hazard-Control-Logic/"
+      "url": "https://medium.com/@shreyaskumar52/computer-architecture-project-designing-and-implementing-an-armv7-compliant-pipelined-processor-7e94c80109e6"
+    },
+    {
+      "id": "9",
+      "title": "The Sky is Falling Video Game",
+      "description": "Digital Hardware Desing Project",
+      "imageSrc": "project_images/digital_design.jpg",
+      "url": "https://github.com/shreytheshreyas/The-Sky-is-Falling-Video-Game/"
     },
     {
       "id": "10",
-      "title": "Quotify-Bot - NUS HacknRoll 2021",
-      "description": "Machine Learning & Web Development Project",
-      "imageSrc": "project_images/quotify.jpg",
-      "url": "https://github.com/shreytheshreyas/"
+      "title": "EZ-Manager Project Management System",
+      "description": "Software Engineering Project Application for Managers",
+      "imageSrc": "project_images/pm.jpg",
+      "url": "https://github.com/shreytheshreyas/Ez-Manager-Project-Management-Application"
     },
     {
       "id": "11",
-      "title": "EZ-Manager Project Management System - OOP Software Engineering Project",
-      "description": "Software Engineering Project Application for Managers",
-      "imageSrc": "project_images/pm.jpg",
-      "url": "https://github.com/shreytheshreyas/"
+      "title": "Multi-threaded-RTOS-Architecture-for-RC-Piloted-Vehicle",
+      "description": "Real Time Operating Systems Project",
+      "imageSrc": "project_images/rtos_project.jpg",
+      "url": "https://github.com/shreytheshreyas/Multi-threaded-RTOS-Architecture-for-RC-Piloted-Vehicle/"
     },
     {
       "id": "12",
-      "title": "Real Time Operating Systems Project",
-      "description": "Embedded Systems Project",
-      "imageSrc": "project_images/rtos_project.jpg",
-      "url": "https://github.com/shreytheshreyas/"
-    },
-    {
-      "id": "13",
-      "title": "C.H.A.P.I - Mental Well Being Application : NUS Orbital 2020 - Summer Developers Competition",
-      "description": "Mental Health Mobile Application",
+      "title": "C.H.A.P.I - Mental Well Being Application : ",
+      "description": "NUS Orbital 2020 - Summer Developers Competition",
       "imageSrc": "project_images/mental_wellbeing.jpg",
       "url": "https://github.com/shreytheshreyas/Orbital-2020---C.H.A.P.I/"
     },
     {
-      "id": "14",
-      "title": "Computer Engineering Principles Part - 2 Project: Alex The Rescue Robot",
-      "description": "Embedded Systems Design & Development",
+      "id": "13",
+      "title": "Alex: The Remote Piloted Rescue Robot",
+      "description": "Embedded Systems Design & Development Project",
       "imageSrc": "project_images/alex.jpg",
-      "url": "https://github.com/shreytheshreyas/"
+      "url": "https://medium.com/@shreyaskumar52/alex-the-remote-piloted-rescue-robot-357953afeb07"
+    },
+    {
+      "id": "14",
+      "title": "The A-MAZE-ing Race",
+      "description": "NUS Computer Engineering Pilot Project",
+      "imageSrc": "project_images/maze_race.jpg",
+      "url": "https://github.com/shreytheshreyas/Color-Sensing-Maze-Finder-Robot/"
     },
     {
       "id": "15",
-      "title": "Computer Engineering Principles Part -1 Project: The A-MAZE-ing Race",
-      "description": "Embedded Systems Design & Development",
-      "imageSrc": "project_images/maze_race.jpg",
-      "url": "https://github.com/shreytheshreyas/"
-    },
-    {
-      "id": "16",
-      "title": "The Memory Game - High School Final Year Computer Science Project",
-      "description": "Software Engineering & Development",
+      "title": "The Memory Game",
+      "description": "High School Software Engineering Final Year Project",
       "imageSrc": "project_images/memory.jpg",
-      "url": "https://github.com/shreytheshreyas/"
+      "url": "https://github.com/shreytheshreyas/The-Memory-Game/"
     }
   ],
   "volunteering": [
