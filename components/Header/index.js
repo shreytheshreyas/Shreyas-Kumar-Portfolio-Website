@@ -23,31 +23,10 @@ const Header = ({ handleWorkScroll, handleAboutScroll, handleExperienceScroll })
           <>
             <div className="flex items-center justify-between p-2 laptop:p-0">
               <div className="flex items-center">
-                {data.darkMode && (
-                  <Button
-                    onClick={() =>
-                      setTheme(theme === "dark" ? "light" : "dark")
-                    }
-                  >
-                    <img
-                      className="h-6"
-                      src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"
-                        }`}
-                    ></img>
-                  </Button>
-                )}
-
                 <Popover.Button>
                   <img
                     className="h-5"
-                    src={`/images/${!open
-                      ? theme === "dark"
-                        ? "menu-white.svg"
-                        : "menu.svg"
-                      : theme === "light"
-                        ? "cancel.svg"
-                        : "cancel-white.svg"
-                      }`}
+                    src={"/images/menu-white.svg"}
                   ></img>
                 </Popover.Button>
               </div>
